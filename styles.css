@@ -6,15 +6,19 @@
 }
 html, body{
     height: 100%;
-    width: 100%;
     font-family: 'Poppins' sans-serif;
     color:black; 
+    overflow-x: hidden!important;
+    width: auto!important;
 }
 /*default version*/
 
 .navbar{
     padding: 8px;
     border: outset pink;
+}
+.navbar-nav hr{
+    border: solid pink;
 }
 .navbar-nav li{
     padding: 20px;
