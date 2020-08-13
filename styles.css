@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -36,18 +39,20 @@ html, body{
     transform: translateY(-50%);
 }
 .carousel-caption h1{
-    font-size: 1000%;
+    font-size: 750%;
     text-shadow: 1px 1px 15px black;
     font-family: 'Allura', cursive;
     font-family: 'Monsieur La Doulaise', cursive;
 }
 .carousel-caption h3{
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 500;
     text-shadow: 1px 1px 15px;
+    color:#9400d3;
+    
 }
 .btn-primary{
-    background-color: #6648b1;
+    background-color:palevioletred;
     border: 1px solid #563d7c;
 }
 .btn-primary:hover{
@@ -73,19 +78,18 @@ html, body{
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
-.fa-code{
+.fa-hand-spock{
     color: #e54d26;
 }
-.fa-bold{
+.fa-birthday-cake{
     color: #563d7c;
 }
-.fa-css3{
-    color: #2163af;
+.fa-smile{
+    color: green;
 }
-.fa-code,.fa-bold,.fa-css3{
+.fa-hand-spock,.fa-birthday-cake,.fa-smile{
     font-size: 64px;
     margin: 1rem;
-    
 }
 .fun{
     width: 100%;
@@ -101,20 +105,21 @@ html, body{
 .fa-facebook{
     color: #3b5998;
 }
-.fa-twitter{
-    color: #00aced;
-}
-.fa-github{
-color: black;
+.fa-envelope{
+color: darkslateblue;
 }
 .fa-instagram{
     color: plum;
 }
-.fa-youtube{
-color: darkred;
+.fa-whatsapp{
+color: greenyellow;
 }
-.fa-facebook:hover,.fa-twitter:hover,.fa-github:hover,.fa-instagram:hover,.fa-youtube:hover{
+.fa-facebook:hover,.fa-whatsapp:hover,.fa-instagram:hover,.fa-whatsapp:hover{
     color: grey;
+}
+.lemonb{
+    height:95%;
+    width: 95%;
 }
 footer{
     background-color: #3f3f3f;
@@ -210,7 +215,7 @@ figure {
   height: 100%;
 }
 #fix {
-  background-image: url('img/mac.png');
+  background-image: url('img/back.jpg');
   position: fixed;
   display: block;
   top: 0;
@@ -223,6 +228,21 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+/*Id for the Fixed image in the contacto .html file*/
+#fixed {
+    background-image: url('img/back.jpg');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
