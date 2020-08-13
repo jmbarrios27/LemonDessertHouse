@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 
 
-    box-sizing{
+box-sizing{
         border-spacing: border-box;
 }
 
@@ -135,20 +135,26 @@ color: greenyellow;
     height:95%;
     width: 95%;
 }
+/*Footer Section*/
 footer{
     background-color:#787878;
     color:white;
   
 }
 footer p{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 500;
     font-family: sans-serif;
+    text-decoration: none;
 }
 hr.light{
     border-top:1px solid #d5d5d5;
     width: 75%;
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
     .social a{
@@ -229,7 +235,7 @@ figure {
   height: 100%;
 }
 #fix {
-  background-image: url('img/lemonfixed.png');
+  background-image: url('img/4dulces.jpg');
   position: fixed;
   display: block;
   top: 0;
@@ -244,7 +250,7 @@ figure {
 }
 /*Id for the Fixed image in the contacto .html file*/
 #fixed {
-    background-image: url('img/back.jpg');
+    background-image: url('img/background3.png');
     position: fixed;
     display: block;
     top: 0;
