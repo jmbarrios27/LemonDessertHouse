@@ -229,7 +229,7 @@ figure {
   height: 100%;
 }
 #fix {
-  background-image: url('img/lemonfixed.jpg');
+  background-image: url('img/lemonfixed.png');
   position: fixed;
   display: block;
   top: 0;
