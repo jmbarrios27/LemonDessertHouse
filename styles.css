@@ -154,6 +154,12 @@ hr.light{
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+/* contacto.html */
+.contact-image{
+    height: 50%;
+    width: 50%;
+
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
