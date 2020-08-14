@@ -156,9 +156,10 @@ a:link, a:visited, a:active {
 }
 /* contacto.html */
 .contact-image{
-    height: 50%;
-    width: 50%;
-
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
 }
 
 /*---Media Queries --*/
