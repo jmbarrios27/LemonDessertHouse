@@ -250,7 +250,7 @@ figure {
 }
 /*Id for the Fixed image in the contacto .html file*/
 #fixed {
-    background-image: url('img/background3.png');
+    background-image: url('img/lemonfixed.png');
     position: fixed;
     display: block;
     top: 0;
