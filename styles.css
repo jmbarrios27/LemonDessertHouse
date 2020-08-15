@@ -160,6 +160,7 @@ hr.light{
 a:link, a:visited, a:active {
     text-decoration:none;
 }
+
 /*Contact Form*/
 input[type=text], select, textarea {
     width: 100%;
@@ -208,19 +209,12 @@ input[type=text], select, textarea {
         font-family: 'Allura', cursive;
         font-family: 'Monsieur La Doulaise', cursive;
     }
-    .carousel-caption h3{
-        font-size: 140%;
-        padding-bottom: .2rem;
-        font-weight: 400;
-        
-    }
-    .carousel-caption .btn{
-        font-size: 95%;
-        padding: 8px 14px;
-    }
     .display-4{
         font-size: 200%;
     }
+    .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
 }
 @media (max-width: 576px) {
     .carousel-caption{
@@ -243,6 +237,9 @@ input[type=text], select, textarea {
         font-size: 95%;
         padding: 8px 14px;
     }
+    .social a{
+        font-size: 2.0em;
+        padding: 0.8rem;
 }
 
 
