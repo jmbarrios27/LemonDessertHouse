@@ -24,6 +24,7 @@ html, body{
 .navbar-nav hr{
     border: solid pink;
 }
+
 .navbar-nav li{
     padding: 20px;
     background-color: whitesmoke;
@@ -64,7 +65,7 @@ html, body{
     
 }
 .btn-primary{
-    background-color:darkred;
+    background-color:pink;
     border: 1px solid #563d7c;
 }
 .btn-primary:hover{
