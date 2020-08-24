@@ -8,7 +8,7 @@ box-sizing{
 
 html, body{
     height: 100%;
-    font-family: 'Poppins' sans-serif;
+    font-family: sans-serif;
     color:black; 
     width: 100%;
     overflow-x:hidden;
@@ -27,7 +27,7 @@ html, body{
 
 .navbar-nav li{
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: fantasy;
     text-align: right;
 
@@ -71,6 +71,15 @@ html, body{
 }
 .btn-primary:hover{
     background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.btn-outline-primary{
+    background-color:pink;
+    border: 1px solid pink;
+    color:black;
+}
+.btn-outline-primary:hover{
+    background-color: purple;
     border: 1px solid #563d7c;
 }
 .jumbotron{
